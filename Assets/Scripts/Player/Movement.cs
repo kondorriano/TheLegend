@@ -18,7 +18,7 @@ public class Movement : MonoBehaviour {
     Vector3 walkDirection = Vector3.zero;
 
 
-    public void setId(int myId)
+    public void setId(int myId)//this is for setting the ID
     {
         id = myId;
     }
@@ -30,7 +30,7 @@ public class Movement : MonoBehaviour {
         speed = initialSpeed;
     }
 
-    void Update()
+	void Update()//This is for updating
     {
         bool up = false;
         bool down = false;
